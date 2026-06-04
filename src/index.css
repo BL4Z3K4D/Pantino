@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  --color-pantino: #123e9b;
+  --color-pantino-dark: #0f3480;
+  --color-cream: #faf8f5;
+  --color-cream-dark: #f3efe8;
+  --color-text-primary: #2d2d2d;
+  --color-text-secondary: #666666;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", Georgia, serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white font-sans text-text-primary antialiased;
+  }
+
+  ::selection {
+    @apply bg-pantino/15 text-pantino;
+  }
+}
