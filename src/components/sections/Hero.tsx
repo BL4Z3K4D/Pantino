@@ -3,7 +3,7 @@ import { getWhatsAppUrl } from '../../data/business'
 import { Button } from '../ui/Button'
 import { LazyImage } from '../ui/LazyImage'
 import { scrollToSection } from '../../utils/scroll'
-import hero from 'public/assets/hero.webp'
+import hero from '/public/assets/hero.webp'
 
 export const Hero = () => {
   return (
