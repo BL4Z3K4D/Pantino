@@ -16,8 +16,8 @@ export const FOOTER_NAV_ITEMS: NavItem[] = [
 ]
 
 export const SOCIAL_LINKS = [
-  { label: 'Instagram', href: 'https://instagram.com/pantino' },
-  { label: 'Facebook', href: 'https://facebook.com/pantino' },
-  { label: 'TikTok', href: 'https://tiktok.com/@pantino' },
-  { label: 'WhatsApp', href: 'https://wa.me/5491123456789' },
+  { label: 'Instagram', href: 'https://www.instagram.com/pantino.pe/' },
+  { label: 'Facebook', href: 'https://www.facebook.com/search/top/?q=pantino' },
+  { label: 'TikTok', href: 'https://www.tiktok.com/@pantino.peru' },
+  { label: 'WhatsApp', href: 'https://wa.me/51983754088' },
 ]

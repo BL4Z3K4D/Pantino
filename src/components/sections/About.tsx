@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { LazyImage } from '../ui/LazyImage'
-
+import nosotros from '/public/assets/nosotros.webp'
 const VALUES = [
   {
     title: 'Elaboración artesanal',
@@ -33,7 +33,7 @@ export const About = () => {
           >
             {/* Reemplazar imagen placeholder por fotografía del equipo o del taller */}
             <LazyImage
-              src="/assets/nosotros.webp"
+              src={nosotros}
               alt="Equipo de Pantino elaborando postres artesanales en el taller"
               className="aspect-[4/5] w-full rounded-3xl object-cover shadow-xl ring-1 ring-black/5"
             />

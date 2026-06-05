@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom'
 import { BUSINESS } from '../../data/business'
 import { FOOTER_NAV_ITEMS, SOCIAL_LINKS } from '../../data/navigation'
 import { scrollToSection } from '../../utils/scroll'
+import logo from '/public/img/LogoPantino.webp'
 
 export const Footer = () => {
   return (
@@ -10,7 +11,7 @@ export const Footer = () => {
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           <div>
             <img
-              src="public/img/LogoPantino.webp"
+              src={logo}
               alt="Pantino - Postres y Viennoiserie"
               className="h-14 w-auto object-contain"
               width={160}
