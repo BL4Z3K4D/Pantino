@@ -3,7 +3,6 @@ import { getWhatsAppUrl } from '../../data/business'
 import { Button } from '../ui/Button'
 import { LazyImage } from '../ui/LazyImage'
 import { scrollToSection } from '../../utils/scroll'
-import heroImage from '../../assets/hero.webp'
 
 export const Hero = () => {
   return (
@@ -60,7 +59,7 @@ export const Hero = () => {
         >
           {/* Utilizar imagen placeholder temporal — reemplazar por fotografía real del local o productos estrella */}
           <LazyImage
-            src={heroImage}
+            src= 'public/assets/hero.webp'
             alt="Selección de viennoiserie artesanal recién horneada en Pantino"
             className="aspect-[6/5] w-full rounded-3xl object-cover shadow-2xl ring-1 ring-black/5 sm:aspect-[6/4]"
           />
