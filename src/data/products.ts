@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     name: 'Helados Artesanales',
     description: 'Helado artesanal elaborado con ingredientes seleccionados, de textura cremosa y sabor auténtico en cada cucharada.',
     category: 'Postres',
-    image: `${import.meta.env.BASE_URL}assets/helados_artesanales.webp`,
+    image: `${import.meta.env.BASE_URL}/assets/helados_artesanales.webp`,
     imageAlt: 'Helados artesanales Pantino en envases individuales con diferentes sabores'
   },
   {
