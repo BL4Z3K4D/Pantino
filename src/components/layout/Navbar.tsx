@@ -6,6 +6,7 @@ import { getWhatsAppUrl } from '../../data/business'
 import { useScrollPosition } from '../../hooks/useScrollPosition'
 import { scrollToSection } from '../../utils/scroll'
 import { Button } from '../ui/Button'
+import logo from '/public/img/LogoPantino.webp'
 
 export const Navbar = () => {
   const isScrolled = useScrollPosition(20)
@@ -36,7 +37,7 @@ export const Navbar = () => {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             <img
-              src="public\img\LogoPantino.webp"
+              src={logo}
               alt="Pantino - Postres y Viennoiserie"
               className="h-12 w-auto object-contain sm:h-14"
               width={160}
