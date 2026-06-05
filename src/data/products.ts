@@ -19,7 +19,7 @@ export const PRODUCTS: Product[] = [
     name: 'Helados Artesanales',
     description: 'Helado artesanal elaborado con ingredientes seleccionados, de textura cremosa y sabor auténtico en cada cucharada.',
     category: 'Postres',
-    image: `${import.meta.env.BASE_URL}/assets/helados_artesanales.webp`,
+    image: `${import.meta.env.BASE_URL}assets/helados_artesanales.webp`,
     imageAlt: 'Helados artesanales Pantino en envases individuales con diferentes sabores'
   },
   {
@@ -27,7 +27,7 @@ export const PRODUCTS: Product[] = [
     name: 'Danés de cereza ',
     description: 'Hojaldre dorado y ligero, relleno con una deliciosa compota de cereza que aporta un sabor frutal irresistible.',
     category: 'Viennoiserie',
-    image: '/assets/danes_cereza.webp',
+    image: `${import.meta.env.BASE_URL}assets/danes_cereza.webp`,
     imageAlt: 'Pain au chocolat artesanal de Pantino',
   },
   {
@@ -35,7 +35,7 @@ export const PRODUCTS: Product[] = [
     name: 'Panettone Artesanal',
     description: 'Panettone artesanal elaborado con fermentación lenta, masa suave y esponjosa, enriquecida con ingredientes seleccionados.',
     category: 'Postres',
-    image: '/assets/panettone artesanal.webp',
+    image: `${import.meta.env.BASE_URL}assets/panettone artesanal.webp`,
     imageAlt: 'Cheesecake de frutos rojos de Pantino',
   },
   {
@@ -43,7 +43,7 @@ export const PRODUCTS: Product[] = [
     name: 'Croissant',
     description: 'Croissant recién horneado, ligero y crujiente por fuera, tierno por dentro y perfecto para cualquier momento del día.',
     category: 'Postres',
-    image: '/assets/croissant.webp',
+    image: `${import.meta.env.BASE_URL}assets/croissant.webp`,
     imageAlt: 'Éclair de chocolate artesanal de Pantino',
   },
   {
@@ -51,7 +51,7 @@ export const PRODUCTS: Product[] = [
     name: 'Cookies',
     description: 'Galletas artesanales horneadas diariamente, con una textura perfecta entre suavidad y crujiente.',
     category: 'Tortas',
-    image: '/assets/galletas.webp',
+    image: `${import.meta.env.BASE_URL}assets/galletas.webp`,
     imageAlt: 'Tarta de limón con merengue de Pantino',
   },
   {
@@ -59,7 +59,7 @@ export const PRODUCTS: Product[] = [
     name: 'Crujiente de tocino y queso',
     description: 'Delicado hojaldre dorado relleno de tocino y queso fundido, con una textura crujiente y un sabor irresistible.',
     category: 'Especiales',
-    image: '/assets/Crujiente de tocino y queso.png',
+    image: `${import.meta.env.BASE_URL}assets/Crujiente de tocino y queso.png`,
     imageAlt: 'Caja de macarons artesanales de Pantino',
   },
   {
