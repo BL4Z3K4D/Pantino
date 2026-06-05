@@ -1,8 +1,11 @@
 export const scrollToSection = (href: string) => {
   const targetId = href.replace('#', '')
 
-  if (window.location.pathname !== '/') {
-    window.location.href = `/${href}`
+  const basePath = '/Pantino'
+  const currentPath = window.location.pathname.replace(/\/$/, '')
+
+  if (currentPath !== basePath) {
+    window.location.href = `${basePath}/${href}`
     return
   }
 
