@@ -5,17 +5,17 @@ export const useHashScroll = () => {
   const { hash, pathname } = useLocation()
 
   useEffect(() => {
-    if (pathname !== '/' || !hash) return
+    if (!hash) return
 
     const targetId = hash.replace('#', '')
-    const element = document.getElementById(targetId)
 
-    if (element) {
-      const timeout = window.setTimeout(() => {
+    const timeout = window.setTimeout(() => {
+      const element = document.getElementById(targetId)
+      if (element) {
         element.scrollIntoView({ behavior: 'smooth', block: 'start' })
-      }, 100)
+      }
+    }, 100)
 
-      return () => window.clearTimeout(timeout)
-    }
+    return () => window.clearTimeout(timeout)
   }, [hash, pathname])
 }

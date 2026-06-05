@@ -1,14 +1,5 @@
 export const scrollToSection = (href: string) => {
   const targetId = href.replace('#', '')
-
-  const basePath = '/Pantino'
-  const currentPath = window.location.pathname.replace(/\/$/, '')
-
-  if (currentPath !== basePath) {
-    window.location.href = `${basePath}/${href}`
-    return
-  }
-
   const element = document.getElementById(targetId)
 
   if (element) {
@@ -16,7 +7,7 @@ export const scrollToSection = (href: string) => {
     return
   }
 
-  window.scrollTo({ top: 0, behavior: 'smooth' })
+  window.location.href = `/Pantino/#${targetId}`
 }
 
 export const scrollToTop = () => {
